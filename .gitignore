@@ -1,0 +1,47 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment files
+.env
+.env.local
+
+# ML Models - ALL model files
+*.safetensors
+*.bin
+*.pt
+*.pkl
+*.h5
+*.onnx
+*.pb
+
+# RoBERTa model folder (THE BIG ONE!)
+backend/ml_model/roberta_sentiment/
+
+# Build folders
+dist/
+build/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
